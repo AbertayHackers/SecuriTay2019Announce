@@ -1,0 +1,94 @@
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #FFF;
+    overflow-x: hidden;
+    background-image: url(../img/trancol.png), url(../img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center; 
+    
+    /*     Image used under CC BY-NC-ND 4.0
+           Original image by Tim Haynes 2013 and found here:
+           http://soc.sty.nu/2014/12/bright-light-city/
+    */
+}
+
+#logo {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home .home-wrapper {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+}
+
+.my-btn {
+    display: inline-block;
+    border-radius: 18px;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    background: #FFF;
+    color: rgba(40,40,40,0.7) !important;
+    opacity: .95;
+    margin: 1%;
+    width: 200px;
+    text-align: center;
+}
+
+.my-btn:hover {
+    opacity: 0.8;
+}
+
+.fab {
+  color: white;
+}
+
+.card-body {
+  color: rgba(40,40,40,0.7);
+}
+
+.bg-purp {
+    background-color: #2B1F31 !important;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---- Countdown Clock ---- */
+
+.countdown {
+  display: inline-block;
+  color: rgba(40,40,40,0.7);
+  font-size: 50px;
+  height: 50px;
+}
+
+.card {
+  padding: 0px;
+  border-radius: 18px;
+  opacity: .90;
+}
